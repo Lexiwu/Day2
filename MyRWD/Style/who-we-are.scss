@@ -1,0 +1,60 @@
+﻿$title-fontsize:24px;     $tittle-fontcolor:rgb(80,106,133);
+$txt-fontsize:10px;        $txt-fontcolor:rgb(115,135,156);
+
+
+body {
+    .who-we-are{
+        height:672px;
+        background-color:#FFF;
+    }
+
+    .responsive{
+        height:285px;
+    }
+    .responsive .col-md-8{
+        left:200px;
+    }
+
+    .res-tittle{
+        font-size:38px;
+        color:$tittle-fontcolor;
+        text-align:center;
+        margin-top:130px;
+    }
+
+    .res-txt{
+        width:705px;
+        text-align:center;
+        font-size:19px;
+        color:$txt-fontcolor;
+    }
+
+    .icn3{
+        height:180px;
+    }
+
+    .icn3 .i1 .i2 .i3{
+        position:relative;
+        top:37px;
+        left:500px;
+    }
+
+
+
+    .icn3 .txt-title{
+        font-size:$title-fontsize;
+        color:$tittle-fontcolor;
+    }
+
+    .icn3 .txt-txt{
+        font-size:$txt-fontsize; 
+        color:$txt-fontcolor;
+    }
+
+   .icn3 .txt1{
+        position:relative;
+        left:80px;
+        top:-50px;
+        width:170px;
+    }
+}

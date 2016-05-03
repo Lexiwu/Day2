@@ -6,5 +6,13 @@
   {
     "outputFile": "Style/main.css",
     "inputFile": "Style/main.scss"
+  },
+  {
+    "outputFile": "Style/who-we-are.css",
+    "inputFile": "Style/who-we-are.scss"
+  },
+  {
+    "outputFile": "Style/latest-work.css",
+    "inputFile": "Style/latest-work.scss"
   }
 ]
