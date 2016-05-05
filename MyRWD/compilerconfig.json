@@ -18,5 +18,9 @@
   {
     "outputFile": "Style/hire.css",
     "inputFile": "Style/hire.scss"
+  },
+  {
+    "outputFile": "Style/footer.css",
+    "inputFile": "Style/footer.scss"
   }
 ]

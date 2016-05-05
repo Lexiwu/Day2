@@ -11,6 +11,7 @@
     <link href="Style/who-we-are.css" rel="stylesheet" />
     <link href="Style/latest-work.css" rel="stylesheet" />
     <link href="Style/hire.css" rel="stylesheet" />
+    <link href="Style/footer.css" rel="stylesheet" />
     <style>
 
         .navbar1 .col-md-2 img{
@@ -34,29 +35,32 @@
 </head>
 <body>
     <script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '111814985897636',
-      xfbml      : true,
-      version    : 'v2.6'
-    });
-  };
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
+        //FB Like&share function - start
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '111814985897636',
+                xfbml: true,
+                version: 'v2.6'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) { return; }
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
     </script>
 
-
+    <!--FB Like&share function - start-->
     <div class="fb-like"
          data-share="true"
          data-width="450"
          data-show-faces="true">
     </div>
+    <!--FB Like&share function - end-->
 
     <nav class="navbar navbar-default visible-xs-block visible-sm-block">
         <div class="container-fluid">
@@ -167,7 +171,7 @@
     <div class="who-we-are">
         <div class="container">
             <div class="row">
-                <div class="responsive">
+                <div class="col-md-12 responsive">
                     <div class="col-md-3"></div>
                     <div class="col-xs-12 col-md-6">
                         <p class="res-tittle">Beautiful. Clean. Responsive.</p>
@@ -183,7 +187,7 @@
                     </div>
                     <div class="col-md-2"></div>
                 </div>
-                <div class="icn3">
+                <div class="col-md-12 icn3">
                     <div class="col-xs-12 col-md-4 col-md-4 i1">
                         <img class="img-responsive" src="images/whoweare/icon-heart-empty-1.png" />
                         <div class="txt1">
@@ -235,68 +239,68 @@
                 <div class="col-md-12 work-tittle">
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
-                        <p class="ckeck-title">Check out our lastest works</p>
+                        <p class="check-title">Check out our lastest works</p>
                     </div>
                     <div class="col-md-3"></div>
 
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
-                        <text class="ckeck-txt">
+                        <text class="check-txt">
                             Sapien elit in malesuada semper mi, id sollicitudin urna fermentum.
                         </text>
                     </div>
-                    <div class="col-md-2"></div>
                 </div>
-
-                <div class="col-md-12 work-piece">
-                    <div class="col-xs-12 col-md-6">
-                        <!-- col-xs-12：device為小的時候占12格 -->
-                        <img class="img-responsive" src="images/lateswork/image.png" /> <!-- img-responsive：圖片變化 -->
-                        <div class="describe">
-                            <text class="con-txt">
-                                <p class="describe-title">Grand Motel gets an identity brushup</p>
-                                <p class="vic-describe">Identity</p>
-                            </text>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <!-- col-xs-12：device為小的時候占12格 -->
-                        <img class="img-responsive" src="images/lateswork/imageAssistor.png" /><!-- img-responsive：圖片變化 -->
-                        <div class="describe">
-                            <text class="con-txt">
-                                <p class="describe-title">Fresh branding for a creative startup</p>
-                                <p class="vic-describe">Identity</p>
-                            </text>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-12 more-work">
-                    <div class="col-xs-6 col-md-3">
-                        <img class="img-responsive" src="images/lateswork/1imageAssistor.png" />
-                    </div>
-                    <div class="col-xs-6 col-md-3">
-                        <img class="img-responsive" src="images/lateswork/2imageAssistor.png" />
-                    </div>
-                    <div class="col-xs-6 col-md-3">
-                        <img class="img-responsive" src="images/lateswork/3imageAssistor.png" />
-                    </div>
-                    <div class="col-xs-6 col-md-3">
-                        <img class="img-responsive" src="images/lateswork/4imageAssistor.png" />
-                    </div>
-                </div>
-
-                <div class="col-md-12 dot">
-                    <div class="col-md-5"></div>
-                    <div class="col-xs-12 col-md-2">
-                        <img class="img-responsive" src="images/lateswork/pagination.png" />
-
-                    </div>
-                    <div class="col-md-5"></div>
-                </div>
-
             </div>
+
+            <div class="col-md-12 work-piece">
+                <div class="col-xs-12 col-md-6">
+                    <!-- col-xs-12：device為小的時候占12格 -->
+                    <img class="img-responsive" src="images/lateswork/image.png" /> <!-- img-responsive：圖片變化 -->
+                    <div class="describe">
+                        <text class="con-txt">
+                            <p class="describe-title">Grand Motel gets an identity brushup</p>
+                            <p class="vic-describe">Identity</p>
+                        </text>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <!-- col-xs-12：device為小的時候占12格 -->
+                    <img class="img-responsive" src="images/lateswork/imageAssistor.png" /><!-- img-responsive：圖片變化 -->
+                    <div class="describe">
+                        <text class="con-txt">
+                            <p class="describe-title">Fresh branding for a creative startup</p>
+                            <p class="vic-describe">Identity</p>
+                        </text>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 more-work">
+                <div class="col-xs-6 col-md-3">
+                    <img class="img-responsive" src="images/lateswork/1imageAssistor.png" />
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <img class="img-responsive" src="images/lateswork/2imageAssistor.png" />
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <img class="img-responsive" src="images/lateswork/3imageAssistor.png" />
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <img class="img-responsive" src="images/lateswork/4imageAssistor.png" />
+                </div>
+            </div>
+
+            <div class="col-md-12 dot">
+                <div class="col-md-5"></div>
+                <div class="col-xs-12 col-md-2">
+                    <img class="img-responsive" src="images/lateswork/pagination.png" />
+
+                </div>
+                <div class="col-md-5"></div>
+            </div>
+
         </div>
+    </div>
     </div>
 
     <div class="hire">
@@ -326,12 +330,110 @@
                     </div>
                     <div class="col-md-5"></div>
                 </div>
-
-
             </div> <!--row end-->
         </div> <!--container end-->
     </div>  <!--hire end-->
 
+    <div class="footer-ending">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 footer-title">
+                    <div class="col-md-2 title-whoweare">
+                        <p>WHO WE ARE</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2 title-works">
+                        <p>LATEST WORKS</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2 title-touch">
+                        <p>GET IN TOUCH</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2 title-updates">
+                        <p>FREE UPDATES</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <div class="col-md-12 footer-txt">
+                    <div class="col-md-3 footer-whoweare">
+                        <img src="images/bottom/logoAssistor.png" />
+                        <text class="who-txt">
+                            Tincidunt integer eu augue augue nunc
+                            elit dolor, luctus placerat scelerisque
+                            euismod, iaculis eu lacus nunc mi elit,
+                            vehicula ut laoreet ac, aliquam sit amet
+                            justo nunc tempor, metus vel.
+                            <br /><br />
+                            <a href="#">More about us ></a>
+                        </text>
+                    </div>
+                    <div class="col-md-3 footer-works">
+                        <div class="work-display">
+                            <img src="images/bottom/1image.png" />
+                            <img src="images/bottom/2image.png" />
+                            <img src="images/bottom/3image.png" />
+                            <img src="images/bottom/4image.png" />
+                        </div>
+                    </div>
+                    <div class="col-md-3 footer-touch">
+                        <text>
+                            Ut fusce varius nisl ac ipsum gravida
+                            vel pretium tellus tincidunt integer eu
+                            augue augue nunc elit dolor, luctus placerat.
+                            <br /><br />
+                        </text>
+                        <div class="footer-info">
+                            <text>
+                                <img src="images/bottom/icon-location.png" />
+                                84 Street, City, State 24813<br />
+                            </text>
+                            <text>
+                                <img src="images/bottom/icon-mobile.png" />
+                                +00(123)456 789 0<br />
+                            </text>
+                            <text>
+                                <img src="images/bottom/icon-mail-1.png" />
+                                info@reen.com<br />
+                            </text>
+                        </div>
+                    </div>
+                    <div class="col-md-3 footer-updates">
+                        <text>
+                            Mi, id sollicitudin urna fermentum ut fusce
+                            varius nisl ac ipsum gravida vel pretium tellus.
+                            <br /><br />
+                        </text>
+                        <input type="text" placeholder="Enter your email address" />
+                        <input type="image" src="images/bottom/subscribe-btn.png" />
+                    </div>
+                </div>
+
+                    <div class="col-md-12 footer-navbar">
+                        <div class="col-md-2 footer-rights">
+                            <text class="mypre">
+                                @2014 REEN. All rights reserved.
+                            </text>
+                        </div>
+                        <div class="col-md-6"></div>
+                        <div class="col-md-4">
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="#Home">Home      </a></li>
+                                    <li><a href="#Home">Portfolio </a></li>
+                                    <li><a href="#Home">Blog      </a></li>
+                                    <li><a href="#Home">About     </a></li>
+                                    <li><a href="#Home">Service   </a></li>
+                                    <li><a href="#Home">Contact   </a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+            </div>
+        </div>
+    </div>
     <script src="js/jquery-1.12.3.js"></script>
     <script src="js/bootstrap.js"></script>
 </body>
