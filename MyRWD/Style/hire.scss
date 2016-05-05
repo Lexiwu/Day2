@@ -1,0 +1,36 @@
+﻿$title-fontsize:38px;     $tittle-fontcolor:rgb(80,106,133);
+$txt-fontsize:19px;        $txt-fontcolor:rgb(115,135,156);
+
+body {
+
+    .hire{
+        height:490px;
+        background-color:#FFF;
+    }
+
+    .withus{
+        height:200px;
+    }
+    .with-txt{
+        height:200px;
+    }
+
+    .touch-btn{
+        height:50px;
+    }
+
+
+    .withus-title{
+        text-align:center;
+        font-size:$title-fontsize;
+        color:$tittle-fontcolor;
+        line-height:200px;
+    }
+
+    .with-describe{
+        text-align:center;
+        font-size:$txt-fontsize;
+        color:$txt-fontcolor;
+
+    }
+}

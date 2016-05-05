@@ -1,9 +1,76 @@
-﻿body {
+﻿$title-fontsize:38px;     $tittle-fontcolor:rgb(80,106,133);
+$txt-fontsize:19px;        $txt-fontcolor:rgb(115,135,156);
+
+body {
     .lasteswork{
         height:1270px;
         background-image: url('../images/lateswork/workbackground.png');
     }
 
+       .work-tittle{
+           height:280px;
+       }
 
+   .work-tittle .check-title{
+        font-size:$title-fontsize;
+        color:$tittle-fontcolor;
+        text-align:center;
+        margin-top:130px;
+    }
+
+     .work-tittle .check-txt{
+        font-size:$txt-fontsize;
+        color:$txt-fontcolor;
+        text-align:center;
+        
+    }
+
+     .work-piece{
+         height:510px;
+     }
+
+     .describe{
+         width:555px;
+         height:120px;
+         text-align:center;
+         font-size:0;                    /* Point */
+         background-color:#FFF;
+         border:solid #eaeaea;
+         border-width:0 1px 1px 1px;
+         margin-bottom:10px;
+   
+     }
+
+     .describe::before{    // :before pseudo element 偽元素的運用 文字垂直置中
+         content:"";
+         height:100%;
+         display:inline-block;
+         vertical-align:middle;
+     }
+     .con-txt{
+         display:inline-block;
+         text-align:center;
+         vertical-align:middle;
+
+     }
+     .describe-title{
+         font-size:$txt-fontsize;   /* Point 要使用絕對值的 font-size 覆寫掉父層的 font-size: 0 */
+         color:$tittle-fontcolor;    
+     }
+     .vic-describe{
+         font-size:8px;             /* Point 要使用絕對值的 font-size 覆寫掉父層的 font-size: 0 */
+         color:$txt-fontcolor;       
+     }
+
+
+     .more-work{
+         height:180px;
+         margin-top:65px;
+     }
+
+     .dot{
+         height:15px;
+         margin-top:50px;
+     }
 
 }

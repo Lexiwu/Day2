@@ -14,5 +14,9 @@
   {
     "outputFile": "Style/latest-work.css",
     "inputFile": "Style/latest-work.scss"
+  },
+  {
+    "outputFile": "Style/hire.css",
+    "inputFile": "Style/hire.scss"
   }
 ]
