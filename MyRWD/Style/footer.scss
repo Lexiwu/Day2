@@ -54,10 +54,19 @@
         font-size:8px;
 
     }
-    .mypre::after{
-        content:"XXXXX";
+    
+    .email-type{
+        width: 300px;
+        height: 50px;
+        padding-right:100px;
+        opacity:0.4;
     }
-    .mypre::before{
-        content:"AAAAAA"
+
+    .click-btn{
+        position:relative;
+        top:-40px;
+        left:250px;
+         margin-left: -45px;
+         -webkit-appearance: none;
     }
 }

@@ -8,7 +8,11 @@ body {
     }
 
        .work-tittle{
-           height:280px;
+           height:194px;
+       }
+
+       .work-tittle >.col-md-3{
+           height:194px;
        }
 
    .work-tittle .check-title{
@@ -18,7 +22,18 @@ body {
         margin-top:130px;
     }
 
-     .work-tittle .check-txt{
+   .work-tittletxt, work-tittletx col-md-2,col-md-8{
+       height:50px;
+   }
+
+   .work-tittletx col-md-2,col-md-8{
+       height:50px;
+   }
+
+   .work-tittletxt .col-md-8{
+               text-align:center;
+   }
+     .work-tittletxt .check-txt{
         font-size:$txt-fontsize;
         color:$txt-fontcolor;
         text-align:center;
@@ -30,7 +45,7 @@ body {
      }
 
      .describe{
-         width:555px;
+         width:540px;
          height:120px;
          text-align:center;
          font-size:0;                    /* Point */
@@ -71,6 +86,10 @@ body {
      .dot{
          height:15px;
          margin-top:50px;
+     }
+
+     .dot .col-md-2 img{
+         padding-left:62.5px;
      }
 
 }

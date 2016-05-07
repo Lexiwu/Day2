@@ -21,6 +21,7 @@ body .res-txt {
   color: #73879c; }
 
 body .icn3 {
+  margin-top: 60px;
   height: 200px; }
 
 body .icn3 .i1 .i2 .i3 {
@@ -41,4 +42,8 @@ body .icn3 .txt1 {
   left: 80px;
   top: -50px;
   width: 170px; }
+
+body .icn3 .s-txt1 {
+  position: relative;
+  top: -65px; }
 
