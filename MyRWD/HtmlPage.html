@@ -103,13 +103,13 @@
                     <img src="images/00.png" />
                 </div>
                 <div class="col-md-6"></div>
-                <div class="col-md-2 visible-lg-block">
-                    <a href="#facebook"><img src="images/icon-s-facebook.png" /></a>
-                    <a href="#gplus"><img src="images/icon-s-gplus.png" /> </a>
-                    <a href="#twitter"><img src="images/icon-s-twitter.png" /></a>
-                    <a href="#pinterest"> <img src="images/icon-s-pinterest.png" /></a>
-                    <a href="#behance"><img src="images/icon-s-behance.png" /></a>
-                    <a href="#dribbble"><img src="images/icon-s-dribbble.png" /></a>
+                <div class="col-md-2 visible-lg-block social-icon">
+                    <a href="#facebook"><i></i></a>
+                    <a href="#gplus"><i></i></a>
+                    <a href="#twitter"><i></i></a>
+                    <a href="#pinterest"><i></i></a>
+                    <a href="#behance"><i></i></a>
+                    <a href="#dribbble"><i></i></a>
                 </div>
             </div>
         </div>
@@ -127,6 +127,13 @@
                         <li><a id="menu-page" href="#">   PAGES    </a></li>
                         <li><a id="menu-fea" href="#">  FEATURES  </a></li>
                     </ul>
+
+                    <div id="dropdown" class="content">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+
                 </div>
                 <div class="hidden-xs col-md-2">
                     <input type="image" class="search" src="images/icon-search.png" />
@@ -160,7 +167,7 @@
                 <div class="start-btn">
                     <div class="col-md-4"></div>
                     <div class="col-md-4">
-                        <input type="image" class="s-btn" src="images/main/getstratnow.png" />
+                        <input type="image" class="s-btn" src="images/main/getstratnow.png"  onclick="window.open('http://www.yahoo.com.tw')";/>
                     </div>
                     <div class="col-md-4"></div>
                 </div>
@@ -281,7 +288,7 @@
                         <div class="col-xs-12 col-md-6">
                             <!-- col-xs-12：device為小的時候占12格 -->
                             <img class="img-responsive" src="images/lateswork/image.png" /> <!-- img-responsive：圖片變化 -->
-                            <div class="describe">
+                            <div class="describe col-xs-12 col-md-6">
                                 <text class="con-txt">
                                     <p class="describe-title">Grand Motel gets an identity brushup</p>
                                     <p class="vic-describe">Identity</p>
@@ -291,7 +298,7 @@
                         <div class="col-xs-12 col-md-6">
                             <!-- col-xs-12：device為小的時候占12格 -->
                             <img class="img-responsive" src="images/lateswork/imageAssistor.png" /><!-- img-responsive：圖片變化 -->
-                            <div class="describe">
+                            <div class="describe col-xs-12 col-md-6">
                                 <text class="con-txt">
                                     <p class="describe-title">Fresh branding for a creative startup</p>
                                     <p class="vic-describe">Identity</p>
@@ -368,7 +375,8 @@
                 <div class="col-md-12 touch-btn">
                     <div class="col-md-5"></div>
                     <div class="col-md-2">
-                        <a href="#hire"><img src="images/wantto/wantto-btn.png" /></a>
+                        <input type="image" class="hire-btn" src="images/wantto/wantto-btn.png" onclick="window.open('http://www.yahoo.com.tw');" />
+                        <!--<a href="#hire"><img src="images/wantto/wantto-btn.png" /></a>-->
                     </div>
                     <div class="col-md-5"></div>
                 </div>
@@ -412,10 +420,10 @@
                     </div>
                     <div class="col-md-3 footer-works">
                         <div class="work-display">
-                            <img src="images/bottom/1image.png" />
-                            <img src="images/bottom/2image.png" />
-                            <img src="images/bottom/3image.png" />
-                            <img src="images/bottom/4image.png" />
+                            <a href="#1"><i></i></a>
+                            <a href="#2"><i></i></a>
+                            <a href="#3"><i></i></a>
+                            <a href="#4"><i></i></a>
                         </div>
                     </div>
                     <div class="col-md-3 footer-touch">
@@ -493,7 +501,7 @@
 
     <div id="gotop">︿</div>
     <script src="js/jquery-1.12.3.js"></script>
-
+    <script src="../mydropdown.js"></script>
     <script src="slick/slick.min.js"></script>
     <script src="slick/mycarouse.js"></script>
 

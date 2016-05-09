@@ -1,0 +1,26 @@
+﻿[
+  {
+    "outputFile": "MyRWD/Style/footer.css",
+    "inputFile": "MyRWD/Style/footer.scss"
+  },
+  {
+    "outputFile": "MyRWD/Style/menu-bar.css",
+    "inputFile": "MyRWD/Style/menu-bar.scss"
+  },
+  {
+    "outputFile": "MyRWD/Style/hire.css",
+    "inputFile": "MyRWD/Style/hire.scss"
+  },
+  {
+    "outputFile": "MyRWD/Style/main.css",
+    "inputFile": "MyRWD/Style/main.scss"
+  },
+  {
+    "outputFile": "MyRWD/Style/StyleSheet.css",
+    "inputFile": "MyRWD/Style/StyleSheet.scss"
+  },
+  {
+    "outputFile": "MyRWD/Style/footer1.css",
+    "inputFile": "MyRWD/Style/footer1.scss"
+  }
+]
