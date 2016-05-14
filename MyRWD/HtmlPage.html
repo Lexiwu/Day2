@@ -2,14 +2,14 @@
 <html>
 <head>
     <title></title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
 
     <!--RWD套件-->
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/bootstrap-theme.css" rel="stylesheet" />
 
     <!--輪轉套件-->
-    <link href="slick/slick-theme.css" rel="stylesheet" />     
+    <link href="slick/slick-theme.css" rel="stylesheet" />
     <link href="slick/slick.css" rel="stylesheet" />
 
     <link href="Style/menu-bar.css" rel="stylesheet" />
@@ -19,24 +19,22 @@
     <link href="Style/hire.css" rel="stylesheet" />
     <link href="Style/footer.css" rel="stylesheet" />
     <style>
-
-        .navbar1 .col-md-2 img{
-                margin-top:15px;
-                margin-right:11px;  
-
-        }
-        .content{
-            width:970px;
-            margin:0 auto;
-        }
-        
-        .navbar-top{
-            width:100%;
-            height:41px;
-            background-color:RGB(245,247,250);
-            border-bottom:1px solid rgb(240, 240, 240);
+        .navbar1 .col-md-2 img {
+            margin-top: 15px;
+            margin-right: 11px;
         }
 
+        .content {
+            width: 970px;
+            margin: 0 auto;
+        }
+
+        .navbar-top {
+            width: 100%;
+            height: 41px;
+            background-color: RGB(245,247,250);
+            border-bottom: 1px solid rgb(240, 240, 240);
+        }
     </style>
 </head>
 <body>
@@ -58,11 +56,7 @@
             js.src = "//connect.facebook.net/en_US/sdk.js";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
-
-
     </script>
-
-
 
     <nav class="navbar navbar-default visible-md-block visible-xs-block visible-sm-block">
         <div class="container-fluid">
@@ -90,8 +84,7 @@
         </div><!-- /.container-fluid -->
     </nav>
 
-
-    <div class="navbar-top">
+    <div class="navbar-top hidden-md hidden-sm hidden-xs">
         <div class="container">
             <div class="row navbar1">
                 <div class="col-md-2 visible-lg-block">
@@ -116,8 +109,8 @@
     </div>
     <div class="nav-mid">
         <div class="container">
-            <div class="row menu-bar">
-                <div class="col-xs-12 col-md-2"><img class="img-responsive logo1" src="images/logo.png" /></div>
+            <div class="row menu-bar visible-lg-block">
+                <div class="col-xs-12 col-md-2"><img class="logo1" src="images/logo.png" /></div>
 
                 <div class="col-md-8  visible-lg-block">
                     <ul class="menu">
@@ -133,7 +126,6 @@
                         <a href="#about">About</a>
                         <a href="#contact">Contact</a>
                     </div>
-
                 </div>
                 <div class="hidden-xs col-md-2">
                     <input type="image" class="search" src="images/icon-search.png" />
@@ -146,7 +138,15 @@
         <!-- visible-lg-block:device為large時看的見 -->
         <div class="container">
             <div class="row">
-                <div class="bigtittle">
+
+                <!--<div id="slider">
+                    <div class="show1"></div>
+                    <div class="show2"></div>
+                    <div class="show3"></div>
+                    <div class="show4"></div>
+                </div>-->
+
+                <div class="bigtittle">                   
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
                         <p class="madefor">MADE FOR DESIGNERS</p>
@@ -160,14 +160,13 @@
                             Creat your online portfol in minutes with the professionally and lovingly designed REEN
                             website template. Customize your site with versatile and easy to use features.
                         </p>
-
                     </div>
                     <div class="col-md-1"></div>
                 </div>
                 <div class="start-btn">
                     <div class="col-md-4"></div>
                     <div class="col-md-4">
-                        <input type="image" class="s-btn" src="images/main/getstratnow.png"  onclick="window.open('http://www.yahoo.com.tw')";/>
+                        <input type="image" class="s-btn" src="images/main/getstratnow.png" onclick="window.open('http://www.yahoo.com.tw', '_self')" ; />
                     </div>
                     <div class="col-md-4"></div>
                 </div>
@@ -178,17 +177,16 @@
     <div class="who-we-are">
         <div class="container">
             <div class="row">
-
-
-                <div class="col-md-12 responsive carousel slide" id="myCarousel"  data-ride="carousel">
+                <div class="row responsive carousel slide" id="myCarousel" data-ride="carousel">
                     <div class="col-md-3"></div>
                     <div class="col-xs-12 col-md-6">
                         <p class="res-tittle">Beautiful. Clean. Responsive.</p>
                     </div>
                     <div class="col-md-3"></div>
                     <div class="col-md-2"></div>
-                    <div class="hidden-xs col-md-8">
-                        <div class="your-carousel">       <!--文字輪轉效果 START-->
+                    <div class="hidden-xs hidden-sm hidden-md col-md-8">
+                        <div class="your-carousel">
+                            <!--文字輪轉效果 START-->
                             <div>
                                 <p class="res-txt">
                                     111REEN is a high-quality solution for those who want a beautiful website in no time.
@@ -215,47 +213,56 @@
                     <div class="col-md-2"></div>
                 </div>
 
-
-                <div class="col-md-12 icn3">
-                    
-                    <div class="col-xs-12 col-md-4 col-md-4 i1">
-                        <img class="img-responsive" src="images/whoweare/icon-heart-empty-1.png" />
-                        <div class="txt1">
-                            <p class="txt-title">Passion</p>
-                            <text class="txt-txt">
-                                Magnis mod psae que lib voloratati
-                                andifen daepediten quiate re porem
-                                aut labor. Laceaque quiae sitiorem rest
-                                non restibusaes maio
-                                Amet, consectetur adipiscing elit.
-                            </text>
+                <div class="row icn3">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="row">
+                            <div class="col-xs-4 col-xs-push-6 col-md-push-0 ">
+                                <img class="img-responsive" src="images/whoweare/icon-heart-empty-1.png" />
+                            </div>
+                            <div class="col-xs-6 col-xs-pull-3 col-md-pull-0">
+                                <p class="txt-title">Passion</p>
+                                <text class="txt-txt">
+                                    Magnis mod psae que lib voloratati
+                                    andifen daepediten quiate re porem
+                                    aut labor. Laceaque quiae sitiorem rest
+                                    non restibusaes maio
+                                    Amet, consectetur adipiscing elit.
+                                </text>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="col-xs-12 col-md-4  col-md-4 i2">
-                        <img class="img-responsive" src="images/whoweare/icon-lamp.png" />
-                        <div class="txt1 s-txt1">
-                            <p class="txt-title">Creativity</p>
-                            <text class="txt-txt">
-                                Magnis mod psae que lib voloratati
-                                andifen daepediten quiate re porem
-                                aut labor. Laceaque quiae sitiorem rest
-                                non restibusaes maio
-                                Amet, consectetur adipiscing elit.
-                            </text>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="row">
+                            <div class="col-xs-4 col-xs-push-6 col-md-push-0 ">
+                                <img class="img-responsive" src="images/whoweare/icon-lamp.png" />
+                            </div>
+                            <div class="col-xs-6 col-xs-pull-3 col-md-pull-0">
+                                <p class="txt-title">Creativity</p>
+                                <text class="txt-txt">
+                                    Magnis mod psae que lib voloratati
+                                    andifen daepediten quiate re porem
+                                    aut labor. Laceaque quiae sitiorem rest
+                                    non restibusaes maio
+                                    Amet, consectetur adipiscing elit.
+                                </text>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-4 col-md-4 i3">
-                        <img class="img-responsive" src="images/whoweare/icon-star-empty-1.png" />
-                        <div class="txt1">
-                            <p class="txt-title">Quality</p>
-                            <text class="txt-txt">
-                                Magnis mod psae que lib voloratati
-                                andifen daepediten quiate re porem
-                                aut labor. Laceaque quiae sitiorem rest
-                                non restibusaes maio
-                                Amet, consectetur adipiscing elit.
-                            </text>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="row">
+                            <div class="col-xs-4 col-xs-push-6 col-md-push-0 ">
+                                <img class="img-responsive" src="images/whoweare/icon-star-empty-1.png" />
+                            </div>
+                            <div class="col-xs-6 col-xs-pull-3 col-md-pull-0">
+                                <p class="txt-title">Quality</p>
+                                <text class="txt-txt">
+                                    Magnis mod psae que lib voloratati
+                                    andifen daepediten quiate re porem
+                                    aut labor. Laceaque quiae sitiorem rest
+                                    non restibusaes maio
+                                    Amet, consectetur adipiscing elit.
+                                </text>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -267,15 +274,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 work-tittle">
-                    <div class="col-md-3"></div>
-                    <div class="col-md-6">
+                    <div class="col-md-3 hidden-xs"></div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 ">
                         <p class="check-title">Check out our lastest works</p>
                     </div>
                     <div class="col-md-3"></div>
                 </div>
                 <div class="col-md-12 work-tittletxt">
                     <div class="col-md-2"></div>
-                    <div class="col-md-8">
+                    <div class="col-md-8  col-sm-12 col-xs-12 ">
                         <text class="check-txt">
                             Sapien elit in malesuada semper mi, id sollicitudin urna fermentum.
                         </text>
@@ -283,22 +290,26 @@
                     <div class="col-md-2"></div>
                 </div>
 
-
-                    <div class="col-md-12 work-piece">
+                <div class="col-md-12 work-piece">
+                    <div class="row">
                         <div class="col-xs-12 col-md-6">
                             <!-- col-xs-12：device為小的時候占12格 -->
-                            <img class="img-responsive" src="images/lateswork/image.png" /> <!-- img-responsive：圖片變化 -->
-                            <div class="describe col-xs-12 col-md-6">
+                            <img class="col-xs-12" src="images/lateswork/image.png" /> <!-- img-responsive：圖片變化 -->
+                            <div class="describe hidden-sm hidden-xs">
+                                <img class="col-xs-12" src="images/lateswork/workpieceback.png" />
                                 <text class="con-txt">
                                     <p class="describe-title">Grand Motel gets an identity brushup</p>
                                     <p class="vic-describe">Identity</p>
                                 </text>
                             </div>
                         </div>
+
+
                         <div class="col-xs-12 col-md-6">
                             <!-- col-xs-12：device為小的時候占12格 -->
-                            <img class="img-responsive" src="images/lateswork/imageAssistor.png" /><!-- img-responsive：圖片變化 -->
-                            <div class="describe col-xs-12 col-md-6">
+                            <img class="col-xs-12" src="images/lateswork/imageAssistor.png" /><!-- img-responsive：圖片變化 -->
+                            <div class="describe hidden-sm hidden-xs">
+                                <img class="col-xs-12" src="images/lateswork/workpieceback.png" />
                                 <text class="con-txt">
                                     <p class="describe-title">Fresh branding for a creative startup</p>
                                     <p class="vic-describe">Identity</p>
@@ -306,58 +317,56 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-md-12 more-work">
-                        <div class="lazy">    <!--圖片手動播放效果 start-->
-                    
-                             <div class="col-xs-6 col-md-3">
-                                <img class="img-responsive" data-lazy="images/lateswork/1imageAssistor.png" />
-                            </div>
-                            <div class="col-xs-6 col-md-3">
-                                <img class="img-responsive" data-lazy="images/lateswork/2imageAssistor.png" />
-                            </div>
-                            <div class="col-xs-6 col-md-3">
-                                <img class="img-responsive" data-lazy="images/lateswork/3imageAssistor.png" />
-                            </div>
-                            <div class="col-xs-6 col-md-3">
-                                <img class="img-responsive" data-lazy="images/lateswork/4imageAssistor.png" />
-                            </div>
-                            <div class="col-xs-6 col-md-3">
-                                <img class="img-responsive" data-lazy="images/lateswork/1imageAssistor.png" />
-                            </div>
-                            <div class="col-xs-6 col-md-3">
-                                <img class="img-responsive" data-lazy="images/lateswork/2imageAssistor.png" />
-                            </div>
-                            <div class="col-xs-6 col-md-3">
-                                <img class="img-responsive" data-lazy="images/lateswork/3imageAssistor.png" />
-                            </div>
-                            <div class="col-xs-6 col-md-3">
-                                <img class="img-responsive" data-lazy="images/lateswork/4imageAssistor.png" />
-                            </div>
-                        
-                        </div><!--圖片手動播放效果 end-->
-                     </div>
-
-                    <div class="col-md-12 dot">
-                        <div class="col-md-5"></div>
-                        <div class="col-xs-12 col-md-2">
-                            <!--<img class="img-responsive" src="images/lateswork/pagination.png" />-->
-
-                        </div>
-                        <div class="col-md-5"></div>
-                    </div>
-
                 </div>
-        </div>
-   </div>
 
+                <div class="col-md-12 col-sm-12 col-xs-12 more-work">
+                    <div class="lazy">
+                        <!--圖片手動播放效果 start-->
+
+                        <div class="col-xs-6 col-md-3">
+                            <img class="img-responsive" data-lazy="images/lateswork/1imageAssistor.png" />
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <img class="img-responsive" data-lazy="images/lateswork/2imageAssistor.png" />
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <img class="img-responsive" data-lazy="images/lateswork/3imageAssistor.png" />
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <img class="img-responsive" data-lazy="images/lateswork/4imageAssistor.png" />
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <img class="img-responsive" data-lazy="images/lateswork/1imageAssistor.png" />
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <img class="img-responsive" data-lazy="images/lateswork/2imageAssistor.png" />
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <img class="img-responsive" data-lazy="images/lateswork/3imageAssistor.png" />
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <img class="img-responsive" data-lazy="images/lateswork/4imageAssistor.png" />
+                        </div>
+                    </div><!--圖片手動播放效果 end-->
+                </div>
+
+                <div class="col-md-12 dot">
+                    <div class="col-md-5"></div>
+                    <div class="col-xs-12 col-md-2">
+                        <!--<img class="img-responsive" src="images/lateswork/pagination.png" />-->
+                    </div>
+                    <div class="col-md-5"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="hire">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 withus">
                     <div class="col-md-3"></div>
-                    <div class="col-md-6 withus-title">
+                    <div class="col-md-6 col-sm-12 col-xs-12 withus-title">
                         <p>Want to work with us?</p>
                     </div>
                     <div class="col-md-3"></div>
@@ -373,12 +382,11 @@
                     <div class="col-md-2"></div>
                 </div>
                 <div class="col-md-12 touch-btn">
-                    <div class="col-md-5"></div>
-                    <div class="col-md-2">
+                    <div class="col-md-5 col-xs-4 col-sm-4"></div>
+                    <div class="col-md-2 col-xs-4 col-sm-4 ">
                         <input type="image" class="hire-btn" src="images/wantto/wantto-btn.png" onclick="window.open('http://www.yahoo.com.tw');" />
-                        <!--<a href="#hire"><img src="images/wantto/wantto-btn.png" /></a>-->
                     </div>
-                    <div class="col-md-5"></div>
+                    <div class="col-md-5 col-xs-4 col-sm-4"></div>
                 </div>
             </div> <!--row end-->
         </div> <!--container end-->
@@ -387,97 +395,129 @@
     <div class="footer-ending">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 footer-title">
-                    <div class="col-md-2 title-whoweare">
-                        <p>WHO WE ARE</p>
-                    </div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-2 title-works">
-                        <p>LATEST WORKS</p>
-                    </div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-2 title-touch">
-                        <p>GET IN TOUCH</p>
-                    </div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-2 title-updates">
-                        <p>FREE UPDATES</p>
-                    </div>
-                    <div class="col-md-1"></div>
-                </div>
-                <div class="col-md-12 footer-txt">
-                    <div class="col-md-3 footer-whoweare">
-                        <img src="images/bottom/logoAssistor.png" />
-                        <text class="who-txt">
-                            Tincidunt integer eu augue augue nunc
-                            elit dolor, luctus placerat scelerisque
-                            euismod, iaculis eu lacus nunc mi elit,
-                            vehicula ut laoreet ac, aliquam sit amet
-                            justo nunc tempor, metus vel.
-                            <br /><br />
-                            <a href="#">More about us ></a>
-                        </text>
-                    </div>
-                    <div class="col-md-3 footer-works">
-                        <div class="work-display">
-                            <a href="#1"><i></i></a>
-                            <a href="#2"><i></i></a>
-                            <a href="#3"><i></i></a>
-                            <a href="#4"><i></i></a>
+                <div class="col-md-12 col-xs-12 col-sm-12 footer-txt">
+
+                    <div class="footer-whoweare  col-md-3 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="title-whoweare col-md-6">
+                                <p>WHO WE ARE</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 footer-touch">
-                        <text>
-                            Ut fusce varius nisl ac ipsum gravida
-                            vel pretium tellus tincidunt integer eu
-                            augue augue nunc elit dolor, luctus placerat.
-                            <br /><br />
-                        </text>
-                        <div class="footer-info">
-                            <text>
-                                <img src="images/bottom/icon-location.png" />
-                                84 Street, City, State 24813<br />
-                            </text>
-                            <text>
-                                <img src="images/bottom/icon-mobile.png" />
-                                +00(123)456 789 0<br />
-                            </text>
-                            <text>
-                                <img src="images/bottom/icon-mail-1.png" />
-                                info@reen.com<br />
+                        <div class="row">
+                            <img class="col-md-6 col-sm-6 col-xs-6" src="images/bottom/logoAssistor.png" />
+                        </div>
+                        <div class="row">
+                            <text class="who-txt col-md-12  col-sm-12 col-xs-12">
+                                Tincidunt integer eu augue augue nunc
+                                elit dolor, luctus placerat scelerisque
+                                euismod, iaculis eu lacus nunc mi elit,
+                                vehicula ut laoreet ac, aliquam sit amet
+                                justo nunc tempor, metus vel.
+                                <br /><br />
+                                <a href="#">More about us ></a>
                             </text>
                         </div>
                     </div>
-                    <div class="col-md-3 footer-updates">
-                        <text>
-                            Mi, id sollicitudin urna fermentum ut fusce
-                            varius nisl ac ipsum gravida vel pretium tellus.
-                            <br /><br />
-                        </text>
 
-                        <form id="myform">
-                            <input type="text" class="email-type" placeholder="Enter your email address" />
-                            <input type="image" class="click-btn" src="images/bottom/subscribe-btn.png" />
-                        </form>
+                    <div class="footer-works col-md-3 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="title-works col-md-12  col-sm-12 col-xs-12">
+                                <p>LATEST WORKS</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="work-display col-md-12  col-sm-12 col-xs-12">
+                                <a href="#1"><i></i></a>
+                                <a href="#2"><i></i></a>
+                                <a href="#3"><i></i></a>
+                                <a href="#4"><i></i></a>
+                            </div>
+                        </div>
 
+
+                    </div>
+
+                    <div class="footer-touch col-md-3 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="title-touch col-md-12  col-sm-12 col-xs-12">
+                                <p>GET IN TOUCH</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <text class="col-md-12 col-sm-12 col-xs-12">
+                                Ut fusce varius nisl ac ipsum gravida
+                                vel pretium tellus tincidunt integer eu
+                                augue augue nunc elit dolor, luctus placerat.
+                                <br /><br />
+                            </text>
+                        </div>
+                        <div class="row">
+                            <div class="footer-info col-md-12 col-sm-12 col-xs-12">
+                                <text>
+                                    <img src="images/bottom/icon-location.png" />
+                                    84 Street, City, State 24813<br />
+                                </text>
+                                <text>
+                                    <img src="images/bottom/icon-mobile.png" />
+                                    +00(123)456 789 0<br />
+                                </text>
+                                <text>
+                                    <img src="images/bottom/icon-mail-1.png" />
+                                    info@reen.com<br />
+                                </text>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="footer-updates col-md-3 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="title-updates col-md-12 col-sm-12 col-xs-12">
+                                <p>FREE UPDATES</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <text class="col-md-12 col-sm-12 col-xs-12">
+                                Mi, id sollicitudin urna fermentum ut fusce
+                                varius nisl ac ipsum gravida vel pretium tellus.
+                                <br /><br />
+                            </text>
+                        </div>
+                        <div class="row">
+                            <form id="myform" class="col-md-12 col-sm-12 col-xs-12">
+                                <input type="text" class="email-type" placeholder="Enter your email address" name="Email" />
+                                <input type="image" class="click-btn" src="images/bottom/subscribe-btn.png" />
+                                <div class="error-mes"></div>
+                            </form>
+                        </div>
+                        <div class="row">
                             <!--FB Like&share function - start-->
-                            <div class="fb-like"
+                            <div class="fb-like  col-md-12 col-sm-12 col-xs-12"
                                  data-share="true"
                                  data-width="450"
                                  data-show-faces="true">
                             </div>
                             <!--FB Like&share function - end-->
-</div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="ending">
+        <div class="container">
+            <div class="row">
                 <div class="col-md-12 footer-navbar">
-                    <div class="col-md-2 footer-rights">
+                    <div class="col-md-2 col-sm-12 col-xs-12 footer-rights">
                         <text class="mypre">
                             @2014 REEN. All rights reserved.
                         </text>
                     </div>
                     <div class="col-md-6"></div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 hidden-sm hidden-xs" >
                         <div class="footer-menu">
                             <ul>
                                 <li><a href="#Home">Home      </a></li>
@@ -489,27 +529,27 @@
                             </ul>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </div>
     </div>
 
-
-
-
     <div id="gotop">︿</div>
     <script src="js/jquery-1.12.3.js"></script>
-    <script src="../mydropdown.js"></script>
+    <script src="js/mydropdown.js"></script>
+
+    <script src="background-slik.js"></script>
+
     <script src="slick/slick.min.js"></script>
+
+    <script src="validate/jquery.validate.js"></script>
+    <script src="validate/additional-methods.js"></script>
+    <script src="validate/messages_zh_TW.js"></script>
+
     <script src="slick/mycarouse.js"></script>
 
 
 
-    <script src="../bootstrap-3.3.6-dist/js/bootstrap.js"></script>
-
-
-
+    <script src="bootstrap-3.3.6-dist/js/bootstrap.js"></script>
 </body>
 </html>

@@ -1,4 +1,5 @@
-﻿
+﻿/// <reference path="../js/jquery-1.12.3.js" />
+
 
 
 
@@ -45,31 +46,44 @@ $(function () {
 
     $('.click-btn').click(function () {
 
+        var validator = $("#myform").validate({
+            rules: {
+                
+                Email: { required: true, email: true }
+                
+            },
+            messages: {
+                
+                Email: { required: "請留下email", email: "格式錯誤" }
+                
+            },
+            errorPlacement: function (error, element) {
+                //$('.click-btn').append(error.element);
+                error.appendTo(element.parent().children().eq(2));
+                console.log(error);
+                console.log(element.parent())
+            }
+        });
+        if($("#myform").valid()){
+       
         $.ajaxSetup({ contentType: "application/json;charset=utf-8" });
 
         var clientEmail = $(".email-type").eq(1).val();    //取得email框框的值
 
         var customerInfo = {                                
             
-            Email: clientEmail,        //宣告json資料格式
+            Email: clientEmail        //宣告json資料格式
 
         };
 
         var data1 = JSON.stringify(customerInfo);    //將取得的email轉成json格式
 
-        $.post("http://localhost/myapi/api/myapi", data1)   
+        $.post("http://localhost/myapi/api/myapi", data1)
                  .done(function (client_email) {
                      alert('新增Email成功!!');
-                 })
 
-
-
-
-
-
-
-
-
+                 });
+        }
 
     });
 

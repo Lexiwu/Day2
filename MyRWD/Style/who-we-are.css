@@ -1,5 +1,6 @@
-﻿body .who-we-are {
-  height: 672px;
+﻿@charset "UTF-8";
+body .who-we-are {
+  /*height:672px; 利用row撐開高度，視窗變小時高度才會變化*/
   background-color: #FFF; }
 
 body .responsive {
@@ -15,19 +16,17 @@ body .res-tittle {
   margin-top: 130px; }
 
 body .res-txt {
-  width: 705px;
   text-align: center;
   font-size: 19px;
   color: #73879c; }
 
 body .icn3 {
-  margin-top: 60px;
-  height: 200px; }
-
-body .icn3 .i1 .i2 .i3 {
   position: relative;
-  top: 37px;
-  left: 500px; }
+  margin-top: 60px;
+  margin-bottom: 20px; }
+
+body .icn3 .col-md-4 {
+  margin-bottom: 30px; }
 
 body .icn3 .txt-title {
   font-size: 24px;
@@ -37,13 +36,7 @@ body .icn3 .txt-txt {
   font-size: 10px;
   color: #73879c; }
 
-body .icn3 .txt1 {
+body .img-responsive {
   position: relative;
-  left: 80px;
-  top: -50px;
-  width: 170px; }
-
-body .icn3 .s-txt1 {
-  position: relative;
-  top: -65px; }
+  left: 50px; }
 

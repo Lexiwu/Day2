@@ -1,11 +1,18 @@
 ﻿$(function () {
 
+    ///背景轉播
 
 
+    // jQuery(document).ready(function($) {   
+    //    $('#slider').cycle({   
+    //        fx:'fade',  //特效           speed:  7500,
+    //        timeout:  7200,
+    //        random:  1
+    //    });
+    //}); 
 
 
-
-
+//////下拉式選單
     document.getElementById("menu-blog").onclick = function () {
 
         document.getElementById("dropdown").classList.toggle("show");

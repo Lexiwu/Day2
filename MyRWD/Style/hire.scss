@@ -4,19 +4,22 @@ $txt-fontsize:19px;        $txt-fontcolor:rgb(115,135,156);
 body {
 
     .hire{
-        height:490px;
+        
         background-color:#FFF;
     }
 
     .withus{
         height:200px;
     }
+
+
     .with-txt{
         height:200px;
     }
 
     .touch-btn{
         height:50px;
+        margin-bottom:10px;
     }
 
 
@@ -24,7 +27,8 @@ body {
         text-align:center;
         font-size:$title-fontsize;
         color:$tittle-fontcolor;
-        line-height:200px;
+        line-height:45px;
+        margin-top:130px;
     }
 
     .with-describe{

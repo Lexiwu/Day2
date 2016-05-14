@@ -1,10 +1,9 @@
 ﻿$title-fontsize:24px;     $tittle-fontcolor:rgb(80,106,133);
 $txt-fontsize:10px;        $txt-fontcolor:rgb(115,135,156);
 
-
 body {
     .who-we-are{
-        height:672px;
+        /*height:672px; 利用row撐開高度，視窗變小時高度才會變化*/
         background-color:#FFF;
     }
 
@@ -23,23 +22,22 @@ body {
     }
 
     .res-txt{
-        width:705px;
+        
         text-align:center;
         font-size:19px;
         color:$txt-fontcolor;
     }
 
     .icn3{
+        position:relative;        
         margin-top:60px;
-        height:200px;
+        margin-bottom:20px;
+        
     }
 
-    .icn3 .i1 .i2 .i3{
-        position:relative;
-        top:37px;
-        left:500px;
+    .icn3 .col-md-4{
+        margin-bottom:30px;
     }
-
 
 
     .icn3 .txt-title{
@@ -48,19 +46,14 @@ body {
     }
 
     .icn3 .txt-txt{
-        font-size:$txt-fontsize; 
+        font-size:$txt-fontsize;
         color:$txt-fontcolor;
     }
 
-   .icn3 .txt1{
-        position:relative;
-        left:80px;
-        top:-50px;
-        width:170px;
-    }
 
-   .icn3 .s-txt1{
+
+   .img-responsive{
        position:relative;
-       top:-65px;
+       left:50px;
    }
 }

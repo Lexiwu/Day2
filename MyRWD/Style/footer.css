@@ -1,14 +1,10 @@
 ﻿body .footer-ending {
-  height: 447px;
   background-image: url("../images/bottom/backgroundAssistor.png"); }
 
-body .footer-title p {
+body .title-whoweare, body .footer-works, body .footer-touch, body .footer-updates {
   font-size: 12px;
   color: #FFF;
-  margin-top: 75px; }
-
-body .footer-txt {
-  height: 259px; }
+  margin-top: 30px; }
 
 body .footer-txt text {
   color: #a3b1bf;
@@ -43,7 +39,8 @@ body .email-type {
   width: 300px;
   height: 50px;
   padding-right: 100px;
-  opacity: 0.4; }
+  opacity: 0.4;
+  color: red; }
 
 body .click-btn {
   position: relative;
@@ -54,7 +51,6 @@ body .click-btn {
 
 body .footer-ending .work-display {
   width: 285px;
-  height: 170px;
   position: relative; }
   body .footer-ending .work-display a i {
     margin-right: 0;
@@ -74,4 +70,11 @@ body .footer-ending .work-display {
   body .footer-ending .work-display a:nth-child(4) i {
     background-image: url("../images/bottom/4result.png");
     background-position: 0 -285px; }
+
+body .error-mes {
+  position: absolute;
+  top: 55px; }
+
+body .ending {
+  background-image: url("../images/bottom/navbackground.png"); }
 
