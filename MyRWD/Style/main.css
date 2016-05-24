@@ -1,48 +1,21 @@
-﻿body {
-  /*#slider{
-        clear:both;
-        height:880px;
-        padding:0;
-        margin:0;
-        z-index:0;
-        clear:both;
-        display:block;
-    }
+﻿body .main {
+  background-image: url("../images/main/main-background.png");
+  height: 880px; }
 
-    .show1{
-            background-image: url('../images/main/main-background.png');
-            padding:0;
-            height:880px;
-    }
-    .show2{            
-            background-image: url('../images/main/image2.png');
-            padding:0;
-            height:880px;
-    }
-    .show3{
-            background-image: url('../images/main/image3.png');
-            padding:0;
-            height:880px;
-    }
-    .show4{
-            background-image: url('../images/main/image4.png');
-            padding:0;
-            height:880px;
-    }*/ }
-  body .main {
-    background-image: url("../images/main/main-background.png");
-    height: 880px; }
-  body .madefor {
-    text-align: center;
-    color: #FFF;
-    font-size: 78px;
-    margin-top: 280px; }
-  body .creat-txt {
-    left: 80px; }
-  body .creat {
-    text-align: center;
-    color: #888;
-    font-size: 24px; }
-  body .s-btn {
-    margin-top: 65px; }
+body .madefor {
+  text-align: center;
+  color: #FFF;
+  font-size: 78px;
+  margin-top: 280px; }
+
+body .creat-txt {
+  left: 80px; }
+
+body .creat {
+  text-align: center;
+  color: #888;
+  font-size: 24px; }
+
+body .s-btn {
+  margin-top: 65px; }
 
