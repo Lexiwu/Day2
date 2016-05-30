@@ -43,8 +43,8 @@ body .email-type {
   color: red; }
 
 body .click-btn {
-  position: relative;
-  top: -40px;
+  position: absolute;
+  top: 10px;
   left: 250px;
   margin-left: -45px;
   -webkit-appearance: none; }
@@ -72,8 +72,7 @@ body .footer-ending .work-display {
     background-position: 0 -285px; }
 
 body .error-mes {
-  position: absolute;
-  top: 55px; }
+  height: 30px; }
 
 body .ending {
   background-image: url("../images/bottom/navbackground.png"); }
